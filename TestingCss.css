@@ -1,0 +1,159 @@
+* { 
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+html, body {
+margin: 0;
+height: 100%;
+
+}
+
+
+.header {
+
+/* border: 5px solid rgba(0, 0, 0, 0.534); */
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+background-color: rgb(255, 255, 255);
+background-image: url(./360_F_196742082_51jZn1ju5JHl7rrq8pj2QmaqxgCKzfqv.jpg);
+min-height: 150px;
+}
+
+
+.comp {
+
+list-style-type: none;
+display: flex;
+justify-content: flex-start;
+
+}
+
+h1 {
+ padding-left: 38px;
+ padding-right: 20px;
+ background-color: rgb(133, 97, 49);
+ color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+}
+
+h2 {
+color: aliceblue;
+margin-right: 25px;
+background-color: rgb(133, 97, 49);
+padding-right: 50px;
+padding-left: 25px;
+padding-right: 25px;
+font-size: 30px;
+
+}
+
+li {
+
+font-size: 30px;
+padding-right: 20px;
+padding-left: 5px;
+color: aliceblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: rgb(133, 97, 49);
+
+
+
+}
+
+/* .image {
+
+background-image: url(./360_F_196742082_51jZn1ju5JHl7rrq8pj2QmaqxgCKzfqv.jpg);
+min-height: 150px;
+background-position: center;
+display: flex;
+flex-wrap: wrap;
+align-content: flex-end;
+justify-content: flex-end;
+
+
+} */
+ 
+.div1 {
+
+display: flex;
+flex-wrap: wrap;
+align-content: flex-end;
+justify-content: flex-end;
+min-height: 150px;
+background-color: rgb(133, 97, 49);
+background: linear-gradient(180deg, rgba(161,125,78,1) 0%, rgba(176,160,138,0.5494572829131652) 100%);;
+
+
+}
+
+
+.page-wrapper {
+max-width: 88%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.page-section {
+
+margin: 25px 0;
+padding: 10px 0;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: stretch;
+justify-content: space-between;
+
+
+}
+
+
+.page-section > h3 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--primary);
+  font-size: 4vw;
+  line-height: 1.1;
+  color: rgb(133, 97, 49);
+  border-right: 5px solid rgb(133, 97, 49);
+}
+
+.page-section > div {
+  flex: 0 0 77%;
+}
+
+.page-section p {
+  margin-bottom: 20px;
+}
+
+
+
+
+.required::after {
+    content: '*';
+    }
+    
+    
+    [data-tooltip] {
+    
+      position: relative;
+    
+    }
+    
+    [data-tooltip]:hover::after {
+    
+       content: attr(data-tooltip); 
+       position: absolute;
+       top: 100%;
+       left: 0px;
+       right: 0px;
+       margin-top: 5px;
+       padding: 5px;
+       background-color: lightgray;
+    }
