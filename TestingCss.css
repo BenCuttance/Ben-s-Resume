@@ -24,12 +24,33 @@ min-height: 150px;
 }
 
 
+main {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .work {
   
 background-image: url(./Hello_there.jpg);
 color: aliceblue;
 
 }
+
+.ref1{
+  background-image: url(./Matrix.jpeg);
+  margin-left: 220px;
+}
+.ref2{
+  background-image: url(./Matrix.jpeg);
+}
+.ref3{
+  background-image: url(./Matrix.jpeg);
+}
+.ref4{
+  background-image: url(./Matrix.jpeg);
+}
+
 
 .flex-items {
 
@@ -44,10 +65,27 @@ justify-content: flex-end;
 padding-bottom: 20px;
 }
 
+.flex-items2 {
+
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid rgb(133, 97, 49);
+  background-position: center;
+  min-height: 200px;
+  min-width: 500px;
+  flex-direction: row;
+  /* align-items: flex-start;
+  justify-content: flex-end; */
+  padding-bottom: 20px;
+  /* flex: 0 0 50%; */
+  margin: 5px;
+  }
+
+
  span {
 
 background-color: rgb(133, 97, 49);
-padding: 0px 85px 10px 10px;
+padding: 0px 96.5px 10px 10px;
 
 } 
 
@@ -155,16 +193,16 @@ flex-direction: row;
 flex-wrap: wrap;
 align-items: stretch;
 justify-content: space-between;
-
-
-
 }
+
+
 
 
 .page-section > h3 {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
+  margin-left: 28px;
   border-right: 4px solid var(--primary);
   font-size: 4vw;
   line-height: 1.1;
@@ -178,6 +216,7 @@ justify-content: space-between;
 
 .page-section p {
   margin-bottom: 20px;
+  line-height: 2.5;
 }
 
 
