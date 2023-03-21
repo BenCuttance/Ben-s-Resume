@@ -7,9 +7,15 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 html, body {
 margin: 0;
 height: 100%;
+line-height: 1.5;
 
 }
 
+main {
+display: flex;
+flex-wrap: wrap;
+
+}
 
 .header {
 
@@ -34,19 +40,26 @@ color: aliceblue;
 .ref1 {
 
   background-image: url(./images/1555172.webp);
+  flex-basis: 0 0 50%;
+
 }
 
 .ref2 {
 
   background-image: url(./images/css.jpg);
+  flex-basis: 0 0 50%;
+
 } 
+
 
 .ref3 {
 background-image: url(./images/html.jpg);
+flex-basis: 0 0 50%;
 }
 
 .ref4 {
 background-image: url(./images/matrix.avif);
+flex-basis: 0 0 50%;
 
 }
 
@@ -58,11 +71,12 @@ background-position: center;
 min-height: 150px;
 max-height: 150px;
 /* min-width:; */
-flex-direction: column;
+flex-direction: row;
 align-items: flex-start;
 justify-content: flex-end;
 padding-bottom: 20px;
 flex-basis: calc(50% - 1em);
+margin: 5px;
 }
 
 .flex-items1 {
@@ -72,11 +86,12 @@ flex-basis: calc(50% - 1em);
   background-position: center;
   min-height: 350px;
   flex-basis: 100%;
-  /* min-width:; */
+  min-width: 700px; 
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
   padding-bottom: 20px;
+  flex-basis: 0 0 2000px;
   }
 
  span {
@@ -85,10 +100,6 @@ background-color: rgb(133, 97, 49);
 padding: 0px 85px 10px 10px;
 
 } 
-
-
-
-
 
 .work:hover{
 
