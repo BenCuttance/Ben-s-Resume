@@ -63,6 +63,7 @@ flex-direction: column;
 align-items: flex-start;
 justify-content: flex-end;
 padding-bottom: 20px;
+flex: 0 0 77%;
 }
 
 .flex-items2 {
@@ -84,6 +85,8 @@ padding-bottom: 20px;
 
  span {
 
+display: flex;
+flex-wrap: wrap;
 background-color: rgb(133, 97, 49);
 padding: 0px 96.5px 10px 10px;
 
