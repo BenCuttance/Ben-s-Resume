@@ -11,19 +11,16 @@ height: 100%;
 
 .header {
 
-/* border: 5px solid rgba(0, 0, 0, 0.534); */
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 align-items: center;
-background-color: rgb(255, 255, 255);
 background-image: url(./360_F_196742082_51jZn1ju5JHl7rrq8pj2QmaqxgCKzfqv.jpg);
 min-height: 150px;
 }
 
 
 main {
-
   display: flex;
   flex-wrap: wrap;
 }
@@ -37,7 +34,7 @@ color: aliceblue;
 
 .ref1{
   background-image: url(./Matrix.jpeg);
-  margin-left: 220px;
+
 }
 .ref2{
   background-image: url(./Matrix.jpeg);
@@ -53,13 +50,13 @@ color: aliceblue;
 .flex-items {
 
 display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-end;
 border: 5px solid rgb(133, 97, 49);
 background-position: center;
 min-height: 350px;
 min-width: 900px;
-flex-direction: column;
-align-items: flex-start;
-justify-content: flex-end;
 padding-bottom: 20px;
 flex: 0 0 77%;
 }
@@ -84,10 +81,12 @@ flex: 0 0 77%;
   border: 5px solid rgb(133, 97, 49);
   background-position: center;
   min-height: 200px;
-  min-width: 500px;
+  min-width: 300px;
   padding-bottom: 20px;
-  margin: 5px;
-  flex-basis: calc(50% - 1em);
+  margin-top: 5px;
+  /* flex-basis: calc(25% - 1em); */
+ flex: 0 0 37.9%;
+
 
   }
 
@@ -108,12 +107,6 @@ background-color: rgb(133, 97, 49);
 padding: 0px 96.5px 10px 10px;
 
 } 
-
-.work:hover{
-
-  background-color: black;
-
-}
 
 .comp {
 
@@ -153,6 +146,7 @@ background-color: rgb(133, 97, 49);
 padding: 10px 8px 10px 10px;
 font-size: 25px;
 }
+
 
 nav h4 {
 display: flex;
@@ -194,6 +188,14 @@ border: solid 2px rgb(133, 97, 49);
 
 }
 
+
+.work:hover {}
+
+section a:hover {
+/* background-position: left; */
+filter: grayscale(100%);
+
+}
 
  
 .div1 {
@@ -284,30 +286,8 @@ justify-content: space-between;
   color: aliceblue;
 }
 
+#contactme {
 
+  margin-left: 50px;
+}
 
-
-
-
-/* .required::after {
-    content: '*';
-    }
-    
-    
-    [data-tooltip] {
-    
-      position: relative;
-    
-    }
-    
-    [data-tooltip]:hover::after {
-    
-       content: attr(data-tooltip); 
-       position: absolute;
-       top: 100%;
-       left: 0px;
-       right: 0px;
-       margin-top: 5px;
-       padding: 5px;
-       background-color: lightgray;
-    } */
