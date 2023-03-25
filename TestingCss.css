@@ -15,7 +15,7 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 align-items: center;
-background-image: url(./360_F_196742082_51jZn1ju5JHl7rrq8pj2QmaqxgCKzfqv.jpg);
+background-image: url(./images/360_F_196742082_51jZn1ju5JHl7rrq8pj2QmaqxgCKzfqv.jpg);
 min-height: 150px;
 }
 
@@ -27,23 +27,25 @@ main {
 
 .work {
   
-background-image: url(./Hello_there.jpg);
+background-image: url(./images/Hello_there.jpg);
 
 
 }
 
 .ref1{
-  background-image: url(./Matrix.jpeg);
+  background-image: url(./images/Javascript.webp
+  );
+  background-position: center;
 
 }
 .ref2{
-  background-image: url(./Matrix.jpeg);
+  background-image: url(./images/css.jpeg);
 }
 .ref3{
-  background-image: url(./Matrix.jpeg);
+  background-image: url(./images/html.jpeg);
 }
 .ref4{
-  background-image: url(./Matrix.jpeg);
+  background-image: url(./images/Matrix.jpeg);
 }
 
 
@@ -85,7 +87,6 @@ flex: 0 0 77%;
   padding-bottom: 20px;
   margin-top: 5px;
   margin-bottom:10px ;
-  /* flex-basis: calc(25% - 1em); */
  flex: 0 0 37.9%;
 
 
