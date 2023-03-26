@@ -263,7 +263,7 @@ justify-content: space-between;
 }
 
 .contact address a {
-  color: var(--tertiary);
+  color: black;
   padding: 10px 10px 10px 5px;
   text-decoration: none;
   font-size: 1.3rem;
@@ -290,3 +290,112 @@ justify-content: space-between;
   margin-left: 50px;
 }
 
+@media screen and (max-width:1331px){
+
+  .work {
+
+    min-width: auto;
+  }
+  
+}
+@media screen and (max-width:1016px){
+  html, body {
+    overflow-x: clip;
+  }
+
+  #contact address {
+    max-width:89vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: clip;
+    overflow-x: scroll;
+  }
+  
+}
+
+@media screen and (max-width:1075px){
+
+  .page-section > h3 {
+    min-width: 100%;
+    text-align: center;
+    padding-right: 0px;
+    margin-left: 0px;
+    font-size: 4vw;
+    line-height: 1.1;
+    color: rgb(133, 97, 49);
+    border-right: none;
+    margin-bottom: 15px;
+}
+.page-section > div {
+  flex: auto;
+}
+
+.flex-items2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-start;
+  border: 5px solid rgb(133, 97, 49);
+  background-position: center;
+  min-height: 200px;
+  min-width: 300px;
+  padding-bottom: 20px;
+  margin-top: none; 
+   margin-bottom: none;
+  flex: 0 0 48%;
+}
+
+.flex-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border: 5px solid rgb(133, 97, 49);
+  background-position: center;
+  min-height: 350px;
+  min-width: auto;
+  padding-bottom: 20px;
+  flex: 0 0 98%;
+}
+
+.page-section {
+    margin: 25px 0;
+     padding: 0; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: none; 
+    justify-content: center;
+    gap: 20px;
+}
+.page-section h3:nth-of-type(2),
+.page-section h3:nth-of-type(3) {
+  display:none;
+}
+
+#contactme {
+
+  margin-left: 0;
+
+}
+
+}
+
+@media screen and (max-width:721px){
+ 
+  .flex-items2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-start;
+  border: 5px solid rgb(133, 97, 49);
+  background-position: center;
+  min-height: 200px;
+  min-width: 300px;
+  padding-bottom: 20px;
+  margin-top: none;
+  margin-bottom: none;
+  flex: 0 0 98%;
+
+  }
+}
