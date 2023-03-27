@@ -1,5 +1,5 @@
 * { 
-
+/* Font for project */
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
@@ -10,7 +10,7 @@ height: 100%;
 }
 
 .header {
-
+/* Background image for header. Flex box used to display ul to right side. Min Height to increase background size  */
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
@@ -19,38 +19,64 @@ background-image: url(./images/360_F_196742082_51jZn1ju5JHl7rrq8pj2QmaqxgCKzfqv.
 min-height: 150px;
 }
 
+.comp {
+  /* ul formatting */
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  
+  }
 
 main {
   display: flex;
   flex-wrap: wrap;
 }
 
+.div1 {
+/* Has gradient to seperate header from body. Flex box to format h2 element in correct position */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+  min-height: 150px;
+  background: linear-gradient(180deg, rgba(161,125,78,1) 0%, rgba(176,160,138,0.5494572829131652) 100%);;
+  }
+
 .work {
-  
+  /* Main image placholder image for future projects */
 background-image: url(./images/Hello_there.jpg);
 
 
 }
 
+/* Placeholder 1 */
 .ref1{
   background-image: url(./images/Javascript.webp
   );
-  background-position: center;
-
+  
+/* Placeholder 2 */
 }
+
 .ref2{
   background-image: url(./images/css.jpeg);
 }
+
+/* Placeholder 3 */
 .ref3{
   background-image: url(./images/html.jpeg);
 }
+
+/* Placeholder 4 */
 .ref4{
   background-image: url(./images/Matrix.jpeg);
 }
 
 
-.flex-items {
 
+.flex-items {
+/* Formatting for main image. Flexbox to format placeholder h3 element into correct position within image. Min height and flex to enlarge image. Min-width commented 
+out but left for reference  */
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -58,24 +84,14 @@ justify-content: flex-end;
 border: 5px solid rgb(133, 97, 49);
 background-position: center;
 min-height: 350px;
-min-width: 900px;
+/* min-width: 900px; */
 padding-bottom: 20px;
 flex: 0 0 77%;
 }
 
-.flex-items:hover {
-
-  color: white;
-}
-
-.subhead {
-
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .flex-items2 {
-
+/* Formatting for smaller placeholder images. Flexbox to format placeholder h3 element into correct position within image.   */
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
@@ -92,17 +108,18 @@ flex: 0 0 77%;
 
   }
 
-  .flex-container {
+  /* .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     
     align-content: flex-end;
-  }
+  } */
 
 
  span {
 
+  /* Used for formatting text under h3 element without impacting P element in the about section */
 display: flex;
 flex-wrap: wrap;
 background-color: rgb(133, 97, 49);
@@ -110,16 +127,9 @@ padding: 0px 96.5px 10px 10px;
 
 } 
 
-.comp {
-
-list-style-type: none;
-display: flex;
-justify-content: flex-start;
-text-decoration: none;
-
-}
 
 h1 {
+  /* Formatting and styling for all h1 elements */
  padding-left: 38px;
  padding-right: 20px;
  background-color: rgb(133, 97, 49);
@@ -129,6 +139,7 @@ font-size: 50px;
 }
 
 h2 {
+  /* formatting and styling for all h2 elements */
 color: white;
 margin-right: 25px;
 background-color: rgb(133, 97, 49);
@@ -140,7 +151,7 @@ font-size: 30px;
 }
 
 div h4 {
-
+/* Formatting and styling for all h4 elements with the parent div */
 display: flex;
 flex-wrap: wrap;
 color: white;
@@ -151,6 +162,7 @@ font-size: 25px;
 
 
 nav h4 {
+/* Formatting and stying for all h4 elements with the parent nav */
 display: flex;
 flex-wrap: wrap;
 background-color: rgb(133, 97, 49);
@@ -158,10 +170,8 @@ font-size: 25px;
 
 }
 
-
-
 a {
-
+/* Styling for a elements so that links do not display with colour  */
 color: white;
 text-decoration: none;
 
@@ -169,17 +179,15 @@ text-decoration: none;
 
 
 li {
-
+/* Styling for header li elements */
 font-size: 30px;
 padding-right: 20px;
 padding-left: 5px;
 color: white;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 background-color: rgb(133, 97, 49);
-transition: all 0.25s ease-in;
 
 }
-
+/* Hover effect over li element. Surrounds hovered item with padded white background box */
 li a:hover {
 background-color: white; 
 color: rgb(133, 97, 49);
@@ -192,31 +200,13 @@ border: solid 2px rgb(133, 97, 49);
 
 
 section a:hover {
-
+/* Hover effect for main and smaller placeholder images. Images lower contrast to show users which item is selected and that it is clickable  */
 filter: contrast(60%);
 
 }
 
- 
-.div1 {
-
-display: flex;
-flex-wrap: wrap;
-align-content: flex-end;
-justify-content: flex-end;
-min-height: 150px;
-background: linear-gradient(180deg, rgba(161,125,78,1) 0%, rgba(176,160,138,0.5494572829131652) 100%);;
-
-
-}
-
-#about {
-
-padding-bottom: 25px;
-}
-
-
 .page-wrapper {
+  /* Formats elements in main class to be pushed left so the h3 elements are can be on the side */
 max-width: 88%;
 margin-left: auto;
 margin-right: auto;
@@ -224,7 +214,7 @@ margin-right: auto;
 }
 
 .page-section {
-
+/* Using flexbox formats section elements so that h3 and images wrap correctly and adds space between */
 margin: 25px 0;
 padding: 10px 0;
 display: flex;
@@ -235,6 +225,7 @@ justify-content: space-between;
 }
 
 .page-section > h3 {
+  /* Styling and formatting for h3 elements with the page-section class */
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
@@ -246,15 +237,18 @@ justify-content: space-between;
 }
 
 .page-section > div {
+  /* Formats div to have inital size of 77% to allow to fit next to h3 element*/
   flex: 0 0 77%;
 }
 
 .page-section p {
+  /* Formatting for p elements within page-section */
   margin-bottom: 20px;
   line-height: 2.5;
 }
 
 .contact address {
+  /* Formatting the positions of the linked items  */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -263,6 +257,7 @@ justify-content: space-between;
 }
 
 .contact address a {
+  /* Formatting and styling for the links. Trasition effect allows the background hover effect to fade in smoothly */
   color: black;
   padding: 10px 10px 10px 5px;
   text-decoration: none;
@@ -278,7 +273,7 @@ justify-content: space-between;
 }
 
 .contact address a:hover {
-
+/* Hover effect for the links. Changes text to white and adds background colour to show which link has been selected  */
   background-size: 100% 88%;
   background-color: rgb(133, 97, 49);
   color: aliceblue;
@@ -288,6 +283,10 @@ justify-content: space-between;
 
   margin-left: 50px;
 }
+
+
+/* Many media queries to make project accessible on smaller screens. Unfortunately needed to implement many changes with help of tutor to fix overusage(or maybe incorrect usage) of  */
+/* flexboxes to line element and contents in the desired fashion */
 
 @media screen and (max-width:1331px){
 
